@@ -6,4 +6,4 @@ menuBtn.addEventListener('click', () => {
   headerMenu.classList.toggle('active');
 });
 
-
+// привет из другого места ПК
