@@ -1,0 +1,156 @@
+.home {
+    position: relative;
+    margin-bottom: 136px;
+}
+
+.home__inner {
+    display: flex;
+    gap: 124px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.home__content {
+    max-width: 575px;
+}
+
+.home__title {
+    max-width: 480px;
+    font-size: 60px;
+    line-height: 97%;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.home__img {
+    object-fit: cover;
+}
+
+.home__text {
+    font-size: 32px;
+    color: var(--grey);
+    letter-spacing: -0.96px;
+}
+
+.home__text:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1200px) {
+    .home__text {
+        font-size: 25px;
+        letter-spacing: -0.96px;
+    }
+
+    .home__title {
+        max-width: 430px;
+        font-size: 54px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .home__content {
+        max-width: 500px;
+    }
+
+    .home__inner {
+        gap: 100px;
+    }
+
+    .home__text:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .home {
+        margin-bottom: 110px;
+    }
+
+
+    .home__img {
+        width: 450px;
+        height: 500px;
+    }
+
+    .home__title {
+        font-size: 48px;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .home__text {
+        font-size: 20;
+        letter-spacing: -0.96px;
+        text-align: center;
+    }
+
+    .home__inner {
+        gap: 90px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home__text:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .home__img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .home__title {
+        font-size: 38px;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .home__text {
+        font-size: 20px;
+        letter-spacing: -0.96px;
+    }
+
+    .home__inner {
+        gap: 90px;
+        flex-direction: column;
+    }
+
+    .home__text:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    @media (max-width: 468px) {
+        .home__img {
+            width: 376px;
+            height: 400px;
+        }
+
+        .home__text{
+            font-size: 15px;
+        }
+
+        .home__title{
+            font-size: 25px;
+        }
+
+        .home__inner{
+            gap:22px
+        }
+        
+        .home{
+            margin-bottom: 80px;
+        }
+
+    }
+
+
+}
